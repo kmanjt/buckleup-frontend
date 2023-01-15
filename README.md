@@ -1,10 +1,10 @@
-# Parking Protect
+# Buckle Up Frontend
 
-Welcome to Parking Protect, a static landing site built with Next.js, Tailwind CSS, React Icons and Framer Motion.
+Welcome to Buckle Up, a static landing site built with Next.js, Tailwind CSS, React Icons and Framer Motion.
 
 ## Getting Started
 
-To get started with Parking Protect, follow these steps:
+To get started with Buckle Up, follow these steps:
 
 1. Clone the repository to your local machine:
 
