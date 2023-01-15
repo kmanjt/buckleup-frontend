@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../public/parkingblue.png";
+import logo from "../public/buckle.png";
 import { motion } from "framer-motion";
 
 const Resources = [
@@ -64,7 +64,7 @@ export default function Footer() {
             return (
               <motion.a
                 whileHover={{ scale: 1.1 }}
-                className="hover:text-darkBlue hover:font-bold block"
+                className="hover:text-darkColor hover:font-bold block"
                 href={item.link}
                 target={"_blank"}
               >

@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { IoLogoAppleAppstore, IoLogoGooglePlaystore } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/parking.png";
+import logo from "../public/buckle.png";
 
 const navigation = [
   { name: "Product", href: "#products", current: false },
@@ -58,9 +58,9 @@ export default function Nav() {
                   <Link href="/">
                     <Image
                       src={logo}
-                      width={75}
-                      height={75}
-                      className="block h-8 w-auto "
+                      width={95}
+                      height={95}
+                      className="block h-12 w-auto m-auto"
                       alt="Logo"
                     />
                   </Link>
@@ -74,7 +74,7 @@ export default function Nav() {
                         className={classNames(
                           item.current
                             ? "dark-blue text-white"
-                            : "text-white hover:bg-darkBlue hover:text-white",
+                            : "text-white hover:bg-darkColor hover:text-white",
                           "px-5 py-2 rounded-md text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -86,15 +86,7 @@ export default function Nav() {
                 </div>
               </div>
               {/*Join button*/}
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button
-                  type="button"
-                  onClick={() => setShowModal(true)}
-                  className="rounded-md dark-blue p-2 text-white hover:text-white hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                >
-                  <p className="font-mono ...">Download</p>
-                </button>
-              </div>
+
               {showModal ? (
                 <>
                   <div className=" flex overflow-x-hidden overflow-y-auto fixed inset-0 z-60 outline-none focus:outline-none">
