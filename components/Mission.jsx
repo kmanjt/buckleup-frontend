@@ -34,7 +34,7 @@ export default function Mission() {
             }}
             className="align-top text-center m-auto"
           >
-            <Image src={people} alt="people" height={500} width={500} />
+
           </motion.div>
         </div>
       </div>
