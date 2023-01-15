@@ -30,7 +30,7 @@ export default function Footer() {
         </motion.div>
         <div className="col-span-5   text-left">
           <p className="text-md">
-            <span className="font-bold text-darkColor text-xl">Buckle Up</span>
+            <span className="font-bold text-darkColor text-xl">Off The Road Collective</span>
           </p>
           <p className="text-sm">
             <span className="font-bold">An Enactus DCU Project</span>, DCU

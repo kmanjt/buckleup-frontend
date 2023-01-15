@@ -4,7 +4,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { IoLogoAppleAppstore, IoLogoGooglePlaystore } from "react-icons/io5";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/buckle.png";
+import logo from "../public/offtheroad.png";
 
 const navigation = [
   { name: "Product", href: "#products", current: false },
@@ -60,7 +60,8 @@ export default function Nav() {
                       src={logo}
                       width={95}
                       height={95}
-                      className="block h-12 w-auto m-auto"
+                      className="block h-8
+                       w-auto m-auto rounded-full"
                       alt="Logo"
                     />
                   </Link>

@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Buckle Up</title>
+        <title>Off The Road Collective</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Buckle Up is a Sustainable Fashion Brand that is committed to making a difference in the world."
+          content="We Sustainable Fashion Brand that is committed to making a difference in the world."
         />
       </Head>
       <Nav />
