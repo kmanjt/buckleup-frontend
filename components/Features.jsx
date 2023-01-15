@@ -7,26 +7,25 @@ import Heading from "./Heading";
 const feature = [
   {
     description:
-      "Efficient Report Generation and Navigation System to Local Authority ",
+      "Fashionable, durable and comfortable. Our products are designed to last.",
     icon: RiNumber1,
   },
   {
-    description:
-      "Blue badge permit validation and Disabled Parking Abuse Detection",
+    description: "Supporting local businesses and reducing waste in landfills.",
     icon: RiNumber2,
   },
   {
-    description: "Educational content, statistics and real stories.",
+    description: "Promoting sustainability through upcycling.",
     icon: RiNumber3,
   },
 ];
 
 export default function Features() {
   return (
-    <section id="features" className="py-32 my-16">
+    <section id="products" className="py-32 my-16">
       <div>
         <div className="p-5">
-          <Heading title="Features" />
+          <Heading title="Our Products" />
         </div>
         <br></br>
         <div className="grid md:grid-cols-3 grid-cols-1 p-4">

@@ -7,7 +7,7 @@ import Link from "next/link";
 import logo from "../public/parking.png";
 
 const navigation = [
-  { name: "Features", href: "#features", current: false },
+  { name: "Product", href: "#products", current: false },
   { name: "Our Mission", href: "#mission", current: false },
   { name: "Our Team", href: "#team", current: false },
   { name: "Contact", href: "#contact", current: false },
@@ -36,17 +36,12 @@ export default function Nav() {
   return (
     <Disclosure
       as="nav"
-      style={{ backgroundColor: `${colour}` }}
-      className="bg-transparent fixed left-0 w-full z-10 top-0 shadow-sm ..."
+      className="bg-accentColor fixed left-0 w-full z-10 top-0 shadow-sm ..."
     >
       {({ open }) => (
         <>
-          <div
-            className=" mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"
-          >
-            <div
-              className="relative flex h-16 items-center justify-between"
-            >
+          <div className=" mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
                 <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:dark-blue hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
@@ -79,7 +74,7 @@ export default function Nav() {
                         className={classNames(
                           item.current
                             ? "dark-blue text-white"
-                            : "text-zinc-800 hover:bg-darkBlue hover:text-white",
+                            : "text-white hover:bg-darkBlue hover:text-white",
                           "px-5 py-2 rounded-md text-sm font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -106,18 +101,16 @@ export default function Nav() {
                     <div className="relative w-auto my-6 mx-auto max-w-3xl">
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                         <button
-                          className="p-1 ml-auto border-0 text-black float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                          className="p-1 ml-auto border-0 text-white float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                           onClick={() => setShowModal(false)}
                         >
-                          <span className="text-black h-6 w-6 text-2xl block ">
+                          <span className="text-white h-6 w-6 text-2xl block ">
                             ×
                           </span>
                         </button>
 
                         <div className="p-5 text-center grid grid-cols-4 md:grid-flow-row">
-
                           <div className="col-span-4">
-
                             <p className="text-center">Download soon!</p>
 
                             <br></br>
@@ -128,9 +121,8 @@ export default function Nav() {
                               className="rounded-md bg-purple-300 p-2 text-white hover:text-white hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                             >
                               <span className="text-black text-2xl block ">
-                                < IoLogoAppleAppstore />
+                                <IoLogoAppleAppstore />
                               </span>
-
                             </button>
                           </div>
                           <div className="col-span-2 ...">
@@ -139,20 +131,16 @@ export default function Nav() {
                               className="rounded-md bg-yellow-300 p-2 text-white hover:text-white hover:scale-105 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                             >
                               <span className="text-black text-2xl block ">
-                                < IoLogoGooglePlaystore />
+                                <IoLogoGooglePlaystore />
                               </span>
-
-
                             </button>
                           </div>
-
                         </div>
                       </div>
                     </div>
                   </div>
                 </>
               ) : null}
-
             </div>
           </div>
 

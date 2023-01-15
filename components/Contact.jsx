@@ -6,13 +6,13 @@ import Heading from "./Heading";
 
 const features = [
   {
-    name: "@parkingprotect",
-    link: "https://www.instagram.com/parkingprotect/",
+    name: "@buckleupenterprise",
+    link: "https://www.instagram.com/buckleupenterprise/",
     icon: FaInstagram,
   },
   {
-    name: "info@parking-protect.com",
-    link: "mailto:info@parking-protect.com",
+    name: "email",
+    link: "mailto:enactusdcu@gmail.com",
     icon: TfiEmail,
   },
   {
@@ -28,9 +28,9 @@ export default function Contact() {
       <div>
         <div className="mx-auto text-center max-w-2xl px-2 pt-16">
           <Heading title="Contact Us" />
-          <p className="mt-4 text-xl font-medium">
-            We are always looking for new ways to improve our service. If you
-            have any questions or suggestions, please get in touch!
+          <p className="mt-4 text-xl font-medium tracking-tighter">
+            We'd love to hear from you!
+            <br /> Get in touch with us on social media or by email.
           </p>
         </div>
 

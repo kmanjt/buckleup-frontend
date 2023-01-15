@@ -13,19 +13,15 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Gotham, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 body {
 
-  font-family: Montserrat, sans-serif;
-  background-color: #5a87c5;
+  font-family: sans-serif;
+  background-color: #4ace71;
 }
 
-
-.dark-blue {
-  background-color: #174484;
-}
 
 a {
   color: inherit;

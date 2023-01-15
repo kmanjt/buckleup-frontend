@@ -1,39 +1,44 @@
-import Max from "../public/team/Max.png";
-import Kevin from "../public/team/Kevin.png";
-import Diarmuid from "../public/team/Diarmuid.png";
-import Niamh from "../public/team/Niamh.png";
-import Sadhana from "../public/team/Sadhana.png";
+import Suzanne from "../public/team/Suzanne.png";
+import Alethea from "../public/team/Alethea.png";
+import Shivangi from "../public/team/Shivangi.png";
+import Kiran from "../public/team/Kiran.png";
 
 export const TeamData = [
   {
-    image: Diarmuid,
-    name: "Diarmuid Brady",
-    url: "https://www.linkedin.com/in/diarmuidbrady/",
-    role: "Project Lead & Business Analyst",
+    image: Alethea,
+    name: "Alethea Z. Williams",
+    url: "https://www.linkedin.com/in/aletheazainab29/",
+    role: "Founder & Co-Project Lead",
   },
 
   {
-    image: Sadhana,
-    name: "Sadhana R Sambandam",
-    url: "https://www.linkedin.com/in/sadhana-r-sambandam-855733250/",
-    role: "Business Analyst",
+    image: Alethea,
+    name: "Ishita Gupta",
+    url: "https://www.linkedin.com/in/ishitagupta954/",
+    role: "Co-Project Lead",
   },
   {
-    image: Max,
-    name: "Maximilian Mohan",
-    url: "https://www.linkedin.com/in/maximilian-mohan-218118252/",
-    role: "Marketing Lead",
+    image: Suzanne,
+    name: "Suzanne Jackson",
+    url: "https://www.linkedin.com/in/suzanne-jackson0/",
+    role: "Project Member",
   },
   {
-    image: Niamh,
-    name: "Niamh Gowran",
-    url: "https://www.linkedin.com/in/niamh-gowran-6b3b24221/",
-    role: "Software Engineer",
+    image: Alethea,
+    name: "Rajdeep Banik",
+    url: "https://www.linkedin.com/in/rajdeep-banik-90a086205/",
+    role: "Project Member",
   },
   {
-    image: Kevin,
-    name: "Kevin J. Tomescu",
-    url: "https://www.linkedin.com/in/kevin-james-tomescu/",
-    role: "Founder",
+    image: Shivangi,
+    name: "Shivangi",
+    url: "https://www.linkedin.com/in/shivangi-756327148/",
+    role: "Project Member",
+  },
+  {
+    image: Kiran,
+    name: "Kiran Vargaonkar",
+    url: "https://www.linkedin.com/in/kiranvargaonkar/",
+    role: "Project Member",
   },
 ];

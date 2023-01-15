@@ -12,7 +12,6 @@ const Resources = [
     des: "Enactus Ireland Website",
     link: "https://www.enactus.ie/",
   },
-
 ];
 
 export default function Footer() {
@@ -20,24 +19,21 @@ export default function Footer() {
     <div className="bg-white p-4 text-penBlue shadow-inner shadow-stone-400/50">
       <div className="grid mt-4 md:grid-cols-12 grid-cols-1 gap-3">
         <motion.div whileHover={{ scale: 1.2 }} className="col-span-4">
-          <a
-            target={"_blank"}
-            href="https://www.enactusdcu.com/"
-          >
+          <a target={"_blank"} href="https://www.enactusdcu.com/">
             <Image
               src={logo}
-              alt="Parking Protect Logo"
+              alt="Buckle Up Logo"
               className="w-32 rounded-sm  mx-auto mb-8"
             />
           </a>
         </motion.div>
         <div className="col-span-5   text-left">
           <p className="text-md">
-            <span className="font-bold text-darkBlue text-xl">Parking Protect</span>
+            <span className="font-bold text-darkBlue text-xl">Buckle Up</span>
           </p>
           <p className="text-sm">
-            <span className="font-bold">An Enactus DCU Project</span>,
-            DCU Glasnevin
+            <span className="font-bold">An Enactus DCU Project</span>, DCU
+            Glasnevin
           </p>
           <br />
           <br />
