@@ -17,9 +17,9 @@ const Hero = () => {
             <Heading title="Buckle Up" />
             <br></br>
             <p className="text-2xl text-white py-6 tracking-tight">
-              Learn more about our mission{" "}
-              <span className="underline decoration-darkBlue italic tracking-tightest">
-                today
+              Committed to making a difference in the {" "}
+              <span className="underline decoration-darkColor italic tracking-tightest">
+                world
               </span>
               !{" "}
             </p>

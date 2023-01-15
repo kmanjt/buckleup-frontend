@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Parking Protect</title>
+        <title>Buckle Up</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Parking Protect - Protecting People's Places!"
+          content="Buckle Up is a Sustainable Fashion Brand that is committed to making a difference in the world."
         />
       </Head>
       <Nav />

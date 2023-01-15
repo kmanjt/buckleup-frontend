@@ -34,12 +34,10 @@ export default function Features() {
               <div key={index} className="p-4">
                 <div
                   key={index}
-                  className="rounded-lg  text-center p-4 w-full h-full shadow-lg"
-                  style={{ backgroundColor: "#174484" }}
+                  className="rounded-lg  text-center p-4 w-full h-full shadow-lg bg-darkColor"
                 >
                   <feature.icon
-                    className="h-10 text-white text-bold w-10 p-2 mx-auto rounded-full"
-                    style={{ backgroundColor: "#83A5D3" }}
+                    className="h-10 text-white text-bold w-10 p-2 mx-auto rounded-full bg-accentColor"
                   />
                   <br></br>
                   <p className="font-medium text-white text-2xl">

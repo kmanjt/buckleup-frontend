@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../public/parkingblue.png";
+import logo from "../public/buckle.png";
 import { motion } from "framer-motion";
+import enactusDCU from "../public/enactusdcu.png";
 
 const Resources = [
   {
@@ -21,7 +22,7 @@ export default function Footer() {
         <motion.div whileHover={{ scale: 1.2 }} className="col-span-4">
           <a target={"_blank"} href="https://www.enactusdcu.com/">
             <Image
-              src={logo}
+              src={enactusDCU}
               alt="Buckle Up Logo"
               className="w-32 rounded-sm  mx-auto mb-8"
             />
@@ -29,7 +30,7 @@ export default function Footer() {
         </motion.div>
         <div className="col-span-5   text-left">
           <p className="text-md">
-            <span className="font-bold text-darkBlue text-xl">Buckle Up</span>
+            <span className="font-bold text-darkColor text-xl">Buckle Up</span>
           </p>
           <p className="text-sm">
             <span className="font-bold">An Enactus DCU Project</span>, DCU
@@ -64,7 +65,7 @@ export default function Footer() {
             return (
               <motion.a
                 whileHover={{ scale: 1.1 }}
-                className="hover:text-darkBlue hover:font-bold block"
+                className="hover:text-darkColor hover:font-bold block"
                 href={item.link}
                 target={"_blank"}
               >
