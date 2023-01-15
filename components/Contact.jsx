@@ -11,7 +11,7 @@ const features = [
     icon: FaInstagram,
   },
   {
-    name: "email",
+    name: "enactusdcu@gmail.com",
     link: "mailto:enactusdcu@gmail.com",
     icon: TfiEmail,
   },
