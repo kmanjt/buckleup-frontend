@@ -16,14 +16,10 @@ const Hero = () => {
           <div className="text-center  p-8 mx-auto  max-sm:mb-20 bg-white rounded-lg">
             <Heading title="OFF THE ROAD " />
             <br></br>
-            <h1 className="text-5xl">COllECTIVE</h1>
+            <h1 className="text-5xl">COLLECTIVE</h1>
             <br></br>
             <p className="text-2xl text-black py-6 tracking-tight">
-              Committed to making a difference in the {" "}
-              <span className="underline decoration-darkColor italic tracking-tightest">
-                world
-              </span>
-              !{" "}
+              {" "} <span className="underline decoration-darkColor italic tracking-tightest"> Eco-chic {" "} </span> fashion for the conscious consumer!
             </p>
             <br></br>
           </div>
