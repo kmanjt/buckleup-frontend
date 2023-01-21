@@ -9,7 +9,7 @@ const seoData = {
         "We are a sustainable fashion brand that aims to create a more sustainable future for the fashion industry. ",
     author: "Niamh Gowran & Kevin Tomescu",
     image: "",
-    url: "",
+    url: "https://offtheroadcollective.com/",
     keywords: [
         "Off The Road Collective",
         "Sustainable Fashion",
