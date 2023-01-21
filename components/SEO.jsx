@@ -65,3 +65,5 @@ SEO.prototype = {
         keywords: PropTypes.arrayOf(PropTypes.string),
     }).isRequired,
 };
+
+export default SEO;

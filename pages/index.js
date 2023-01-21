@@ -10,15 +10,17 @@ import Seo from "../components/SEO";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Seo />
-      <Nav />
-      <Hero />
-      <Features />
-      <Mission />
-      <Team />
-      <Contact />
-      <Footer />
-    </div>
+      <main>
+        <Nav />
+        <Hero />
+        <Features />
+        <Mission />
+        <Team />
+        <Contact />
+        <Footer />
+      </main>
+    </>
   );
 }
