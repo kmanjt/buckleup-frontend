@@ -37,7 +37,7 @@ export default function Features() {
                   className="rounded-lg  text-center p-4 w-full h-full shadow-lg bg-darkColor"
                 >
                   <feature.icon
-                    className="h-10 text-white text-bold w-10 p-2 mx-auto rounded-full bg-accentColor"
+                    className="h-10 text-darkColor font-bold text-bold w-10 p-2 mx-auto rounded-full bg-accentColor"
                   />
                   <br></br>
                   <p className="font-medium text-white text-2xl">

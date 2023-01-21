@@ -16,7 +16,7 @@ export default function Heading(title) {
             bounce: 0.5,
           }}
         >
-          <h1 className="lg:text-7xl text-5xl text-black font-bold">
+          <h1 className="lg:text-7xl text-5xl text-darkColor font-bold">
             {title.title}
           </h1>
         </motion.div>
