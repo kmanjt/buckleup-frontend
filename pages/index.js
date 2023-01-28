@@ -7,6 +7,7 @@ import Features from "../components/Features";
 import Contact from "../components/Contact";
 import Team from "../components/Team";
 import Seo from "../components/SEO";
+import Product from "../components/Products";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Nav />
         <Hero />
         <Features />
+        <Product />
         <Mission />
         <Team />
         <Contact />
